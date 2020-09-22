@@ -7,10 +7,10 @@ export default function WelcomeMessage({toggleView, setToggleView}) {
     return (
         <div className="welcomeMessage">
         <StepCounter step1 />
-        <div>Welcome to Crazy Cards. </div>
-        <div>Enter some quick details to match you with a card:</div>
+        <div><h1>Welcome to Crazy Cards </h1></div>
+        <div>Enter some quick details and we'll match <b>you</b> with the right card for you</div>
         <img src={cardIcon} className="cardIcon" alt="image of credit cards"/>
-        <button onClick={()=> setToggleView("form")}>Find Me a Card!</button>
+        <button onClick={()=> setToggleView("form")}>Find My Perfect Card</button>
         </div>
         
     )

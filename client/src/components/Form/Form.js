@@ -74,7 +74,7 @@ export default function Form({user, setUser, setCardsList, setToggleView}) {
              
           </ul>
 
-          <button type="submit" className="button primary">Find a Card!</button>
+          <button type="submit" className="button primary">Get Results</button>
           </form>
         </div>
         </div>

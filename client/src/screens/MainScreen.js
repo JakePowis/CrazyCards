@@ -1,9 +1,9 @@
 import React, {useState} from 'react'
 
 
-import Form from '../Form/Form'
-import Table from '../Table/Table';
-import WelcomeMessage from '../WelcomeMessage/WelcomeMessage';
+import Form from '../components/Form/Form'
+import Table from '../components/Table/Table';
+import WelcomeMessage from '../components/WelcomeMessage/WelcomeMessage';
 
 export default function MainScreen({setToggleView, toggleView}) {
 

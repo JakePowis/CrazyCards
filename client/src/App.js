@@ -6,8 +6,8 @@ import './App.css';
 import Header from './components/Header/Header';
 import Sidebar from './components/Sidebar/Sidebar';
 import Footer from './components/Footer/Footer'
-import MainScreen from './components/Screens/MainScreen'
-import CardScreen from './components/Screens/CardScreen'
+import MainScreen from './screens/MainScreen'
+import CardScreen from './screens/CardScreen'
 
 
 function App() {

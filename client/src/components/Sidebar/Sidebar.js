@@ -12,56 +12,19 @@ export default function Sidebar() {
     return (
         <aside className="sidebar">
 
-
-        <div className="sidebar-cats">
-          <h3>Our Cards</h3>
-          <button className="sidebar-close-button" onClick={closeMenu}>x</button>
-          <ul className="categories">
-
-          <li>  <Link to="/card/student">Student Life</Link></li>
-          <li><Link to="/card/anywhere">Anywhere Card</Link></li>
-          <li><Link to="/card/liquid">Liquid Card</Link></li>
-            {/* <li>
-              <Link to="/shop">All</Link>
-            </li>
-            <li>
-              <Link to="/category/fantasy">Fantasy</Link>
-            </li>
-
-            <li>
-              <Link to="/category/crime">Crime</Link>
-            </li>
-            <li>
-              <Link to="/category/romance">Romance</Link>
-            </li>
-            <li>
-              <Link to="/category/nonfiction">Non-fiction</Link>
-            </li>
-          </ul>
-
-          <h3>Sale</h3>
-          <ul className="categories">
-            <li>
-              <Link to="/sale">Sale Items</Link>
-            </li>
-          </ul>
-
-
-          <h3>Account</h3>
-
-          <ul className="categories">
-            <li>
-              <Link to="/customerservice">Customer Services</Link>
-            </li>
-
-            <li>
-              <Link to="/profile">Profile</Link>
-            </li>
-            <li>
-              <Link to="/profile">Sign Out</Link>
-            </li> */}
-          </ul>
-        </div>
+        <button className="sidebar-close-button" onClick={closeMenu}>x</button>
+        <h3>Home</h3>
+        <ul className="cards">
+        <Link to="/"><li><span className="indent">Match a Card</span></li></Link>
+        </ul>
+        
+        <h3>Our Cards</h3>
+          <ul className="cards">
+          <Link to="/card/student"><li><span className="indent">Student Life</span></li></Link>
+          <Link to="/card/anywhere">  <li><span className="indent">Anywhere Card</span></li></Link>
+          <Link to="/card/liquid"> <li><span className="indent">Liquid Card</span></li></Link>
+        </ul>
+    
 
 
 
