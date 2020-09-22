@@ -1,24 +1,37 @@
-import React from 'react';
+import React, {useState} from 'react';
+import { BrowserRouter, Route, Link } from 'react-router-dom';
 import './App.css';
 
-import Footer from './components/footer/Footer'
-import Form from './components/form/Form';
-import Header from './components/header/Header';
-import Table from './components/table/Table';
+
+import Header from './components/Header/Header';
+import Sidebar from './components/Sidebar/Sidebar';
+import Footer from './components/Footer/Footer'
+import MainScreen from './components/Screens/MainScreen'
+import CardScreen from './components/Screens/CardScreen'
+
 
 function App() {
+
+  const [toggleView, setToggleView] = useState("welcome")
+
+
   return (
+
+    <BrowserRouter>
     <div className="app">
-      <Header/>
-      <div className="content">
-        <div className="container">
-          <Form/>
-          <Table/>
-        </div>
-      </div>
+      <Header setToggleView={setToggleView} />
+      <Sidebar/>
+
+{/* Screens */}
+{/* TODO: Pass comps thru */}
+      <Route path="/" exact={true} render={(props) => <MainScreen  {...props} toggleView={toggleView} setToggleView={setToggleView} />} />
+      <Route path="/card/:_id" component={CardScreen} />
+
       <Footer />
       
     </div>
+
+    </BrowserRouter>
   );
 }
 

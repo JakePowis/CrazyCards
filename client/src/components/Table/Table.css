@@ -1,0 +1,7 @@
+.editButton {
+    background-color: rgb(153, 14, 42)
+}
+
+.editButton:hover {
+    background-color: crimson
+}

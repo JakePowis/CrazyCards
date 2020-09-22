@@ -1,0 +1,15 @@
+.welcomeMessage {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+
+}
+
+.cardIcon {
+    padding: 6rem;
+    max-height: 300px;
+    width: auto;
+}
