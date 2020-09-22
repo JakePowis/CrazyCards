@@ -1,0 +1,10 @@
+.formContainer {
+    border: solid 2px rgba(0,0,0, 0.2);
+    border-radius: 4px;
+    padding: 2rem 2rem 8rem 2rem;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
