@@ -1,0 +1,9 @@
+.formContainer {
+    border: solid 2px rgba(0,0,0, 0.2);
+    border-radius: 4px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
