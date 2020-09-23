@@ -1,19 +1,24 @@
-import React, {useEffect} from 'react'
+import React, {useEffect, useState} from 'react'
 import { useParams } from "react-router";
+import CardDetails from '../components/CardDetails/CardDetails';
+import cardData from '../data/cards'
 
 export default function CardScreen(props) {
 
 
     let { _id } = useParams();
 
+    const [card, setCard] = useState(null)
+
     useEffect(() => {
-       //get data from params card on load
-    }, [])
+        //load correct card based on address
+        setCard(...cardData.cards.filter((x) => x._id === _id))
+    }, [_id])
 
 
     return (
         <div>
-            Card Screen, card selected is {_id}
+        {card && <CardDetails card={card} />}
         </div>
     )
 }

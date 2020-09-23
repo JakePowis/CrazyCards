@@ -1,7 +1,45 @@
-.editButton {
-    background-color: rgb(153, 14, 42)
+
+.result {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px rgba(0,0,0,0.2) solid;
+    transition: 0.5s;
+    border-radius: 4px;
+    cursor: pointer;
+    z-index: 100;
 }
 
-.editButton:hover {
-    background-color: crimson
+.result:hover {
+
+background-color: rgba(8, 46, 88, 0.219);
+}
+
+.selected {
+    background-color: rgba(8, 46, 88, 0.219);
+}
+
+
+.cardName {
+    font-size: 3rem;
+}
+
+.cardDetails {
+    font-size: 1rem;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 0rem
+}
+
+.total {
+    display:flex;
+    justify-content: flex-end;
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 2rem 0rem;
 }

@@ -1,15 +1,14 @@
 import React from 'react'
-import matchCards from '../../util/matchCards'
 import StepCounter from '../StepCounter/StepCounter'
+
 import './Form.css'
 
-export default function Form({user, setUser, setCardsList, setToggleView}) {
+export default function Form({user, setUser, setToggleView}) {
 
 
     const submitHandler = (e) =>{
         e.preventDefault();
         console.log(user)
-        setCardsList = matchCards(user)
         setToggleView("table")
     }
 
@@ -17,6 +16,8 @@ export default function Form({user, setUser, setCardsList, setToggleView}) {
     const handleChange = (e) => {
         setUser({...user, [e.target.id]:e.target.value})
     }
+
+ 
 
 
     return (
@@ -73,8 +74,10 @@ export default function Form({user, setUser, setCardsList, setToggleView}) {
                 </li>
              
           </ul>
-
-          <button type="submit" className="button primary">Get Results</button>
+        <div className="submitContainer">
+            <button type="submit" className="button primary">Get Results</button>
+        </div>
+         
           </form>
         </div>
         </div>
