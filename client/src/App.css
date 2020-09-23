@@ -17,7 +17,7 @@ body {
 }
 
 .content {
-  height: 90%;
+  height: 70%;
 }
 
 .container {
@@ -42,4 +42,11 @@ button {
 
 button:hover {
   background-color: #008bba88;
+}
+
+button:disabled,
+button[disabled]{
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
 }

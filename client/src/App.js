@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Route} from 'react-router-dom';
 import './App.css';
 
 
@@ -20,10 +20,8 @@ function App() {
     <BrowserRouter>
     <div className="app">
       <Header setToggleView={setToggleView} />
-      <Sidebar/>
+      <Sidebar setToggleView={setToggleView}/>
 
-{/* Screens */}
-{/* TODO: Pass comps thru */}
       <Route path="/" exact={true} render={(props) => <MainScreen  {...props} toggleView={toggleView} setToggleView={setToggleView} />} />
       <Route path="/card/:_id" component={CardScreen} />
 

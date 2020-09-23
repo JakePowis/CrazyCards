@@ -1,10 +1,88 @@
+.formPage {
+    display: flex;
+    flex-direction: column;
+    /* height: 50vh; */
+    align-items: center;
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+
 .formContainer {
     border: solid 2px rgba(0,0,0, 0.2);
-    border-radius: 4px;
-    padding: 2rem 2rem 8rem 2rem;
+    border-radius: 8px;
+    padding: 2rem 3rem 6rem 3rem;
+    background-color: rgba(255, 255, 255, 0.664);
+    max-width: 70%;
+    margin: auto;
+    margin-top: 8rem;
+    font-size: 1.4rem;
+    
 }
 
 ul {
     list-style-type: none;
     padding: 0;
+}
+
+.formContainer > div > li {
+    padding: 0.4rem 0rem;
+    width: 50%;
+}
+
+
+
+.nameForm, .workForm, .startForm {
+    display: flex;
+    /* flex-wrap: wrap; */
+
+    align-items: center;
+}
+
+.submitContainer {
+    display: flex;
+    justify-content: center;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+input, select {
+    height: 2rem;
+    border-radius: 12px;;
+    border: darkgrey solid thin;
+    padding: 0rem 1rem;
+
+}
+
+input {
+    width: 14rem;
+}
+
+input:focus {
+background-color: #008bba2d;
+
+
+}
+
+select {
+    background-color: white;
+
+}
+
+label {
+
+    padding: 0rem 0rem 0rem 3rem;
+    display: inline-block;
+    width: 12rem;;
+}
+
+.form button {
+
+    margin: 6rem 0rem;
 }

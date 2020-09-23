@@ -19,15 +19,15 @@ export default function MainScreen({setToggleView, toggleView}) {
     "income": ""
 })
 
-const [cardsList, setCardsList] = useState([])
+
 
 
 
 
 //Props to pass down - have not used Redux for this project given relativally few components & states to manage
 const welcomeProps = {toggleView, setToggleView}
-const formProps = {user, setUser, setCardsList, setToggleView}
-const tableProps = {cardsList, setToggleView}
+const formProps = {user, setUser,  setToggleView}
+const tableProps = {user, setToggleView}
 
     return (
         <div className="content">
