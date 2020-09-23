@@ -1,5 +1,6 @@
 import React from 'react'
 import './CardDetails.css'
+import { Link } from 'react-router-dom';
 
 export default function CardDetails({card}) {
     return (
@@ -25,6 +26,8 @@ export default function CardDetails({card}) {
                <br/>
                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Viverra nam libero justo laoreet sit. Aliquet bibendum enim facilisis gravida neque convallis. Metus vulputate eu scelerisque felis imperdiet proin fermentum. Sit amet volutpat consequat mauris nunc congue nisi vitae suscipit. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi. Phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis. Vitae purus faucibus ornare suspendisse. Vel fringilla est ullamcorper eget nulla facilisi etiam. Cursus vitae congue mauris rhoncus aenean. Ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper.</div>
         </div>
+
+        <Link to="/">Are you a match for {card.name}? click here to find out.</Link>
                      
 
         </div>
