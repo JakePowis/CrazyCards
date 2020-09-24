@@ -21,9 +21,6 @@ export default function MainScreen({setToggleView, toggleView}) {
 
 
 
-
-
-
 //Props to pass down - have not used Redux for this project given relativally few components & states to manage
 const welcomeProps = {toggleView, setToggleView}
 const formProps = {user, setUser,  setToggleView}
