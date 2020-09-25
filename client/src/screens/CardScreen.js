@@ -8,6 +8,7 @@ export default function CardScreen(props) {
 
     let { _id } = useParams();
 
+
     const [card, setCard] = useState(null)
 
     useEffect(() => {

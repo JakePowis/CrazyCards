@@ -31,7 +31,7 @@ test('presents Ollie (test user #1) with two cards', () => {
 
 
 
-//USER ONE TESTS - Elizabeth Edmunson
+//USER TWO TESTS - Elizabeth Edmunson
 
 
   let testUserTwo = {
