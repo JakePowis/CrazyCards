@@ -1,6 +1,5 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Instructions
+## Install Instructions
 
 
 - `git clone https://github.com/JakePowis/CrazyCards.git` to clone the directory to your local system
