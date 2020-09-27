@@ -12,7 +12,7 @@ export default function Sidebar({setToggleView}) {
     return (
         <aside className="sidebar">
 
-        <button className="sidebar-close-button" onClick={closeMenu}>x</button>
+        <button data-testid="close" className="sidebar-close-button" onClick={closeMenu}>x</button>
         <h3>Home</h3>
         <ul className="cards">
         <Link to="/"><li onClick={()=> setToggleView("welcome")}><span className="indent">Match a Card</span></li></Link>

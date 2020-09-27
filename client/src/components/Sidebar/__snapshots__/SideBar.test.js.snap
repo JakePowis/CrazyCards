@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+Array [
+  " ",
+  <aside
+    className="sidebar"
+  >
+    <button
+      className="sidebar-close-button"
+      data-testid="close"
+      onClick={[Function]}
+    >
+      x
+    </button>
+    <h3>
+      Home
+    </h3>
+    <ul
+      className="cards"
+    >
+      <a
+        href="/"
+        onClick={[Function]}
+      >
+        <li
+          onClick={[Function]}
+        >
+          <span
+            className="indent"
+          >
+            Match a Card
+          </span>
+        </li>
+      </a>
+    </ul>
+    <h3>
+      Our Cards
+    </h3>
+    <ul
+      className="cards"
+    >
+      <a
+        href="/card/1"
+        onClick={[Function]}
+      >
+        <li>
+          <span
+            className="indent"
+          >
+            Student Life
+          </span>
+        </li>
+      </a>
+      <a
+        href="/card/2"
+        onClick={[Function]}
+      >
+          
+        <li>
+          <span
+            className="indent"
+          >
+            Anywhere Card
+          </span>
+        </li>
+      </a>
+      <a
+        href="/card/3"
+        onClick={[Function]}
+      >
+         
+        <li>
+          <span
+            className="indent"
+          >
+            Liquid Card
+          </span>
+        </li>
+      </a>
+    </ul>
+  </aside>,
+]
+`;
