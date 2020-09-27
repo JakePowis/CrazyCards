@@ -43,3 +43,22 @@ background-color: rgba(8, 46, 88, 0.219);
     font-weight: 800;
     margin: 2rem 0rem;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    .result {
+        flex-direction: column;
+    }
+    
+    .total {
+        justify-content: center;
+    }
+
+    .cardDetails, .cardCredit {
+
+        margin: 0.5rem 0;
+    }
+ 
+
+  }

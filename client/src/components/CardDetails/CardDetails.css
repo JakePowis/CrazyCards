@@ -3,8 +3,9 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-    height: 80vh;
+    height: calc(100vh -100px);
     padding: 0rem 10rem;
+    overflow: auto;
 }
 
 .cardTitle {
@@ -22,9 +23,40 @@
     justify-content: left;
     align-items: flex-start;
     width: 100%;
+    margin: 2rem 0rem
 }
 
 .cardInfoFull {
 
     font-size: 1.2rem;
+}
+
+
+.cardImg {
+    height: 200px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .cardDetailsContainer {
+        width: 85%;
+        padding: 2rem;
+        margin: 1rem;
+        overflow: auto;
+        align-items: center;
+    }
+
+    .cardDetailsContainer > div {
+        width: 85%;
+        margin: 1rem;
+    }
+
+    .cardImg {
+        height: 120px;
+    }
+
+
+
+
+
 }

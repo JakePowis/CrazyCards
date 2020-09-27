@@ -8,7 +8,7 @@ export default function CardDetails({card}) {
         <div className="cardDetailsContainer">
 
         <div className="cardTitle">
-            <img src={`../${card.image}`} alt="" style={{height:"220px"}}/>
+            <img src={`../${card.image}`} alt="" className="cardImg"/>
             <div>{card.name}</div>
         </div>
 

@@ -3,21 +3,28 @@ html {
   padding: 0;
   margin: 0;
   font-size: 62.5%; 
+  min-height: 100%;
+  width: 100%;
+  position:fixed;
+  overflow: auto;
+
   /* to make 1rem 10px */
 }
 
 #root, .app {
   height: 100%;
+  width: 100%;
 }
 
 body {
   font: 1.6rem  'Open Sans', sans-serif;
-  height: 100vh;
+  min-height: 100vh;
   background-color: #f7f7f7;
+
 }
 
 .content {
-  height: 70%;
+  min-height: 70%;
 }
 
 .container {
@@ -50,3 +57,12 @@ button[disabled]{
   color: #666666;
   cursor: not-allowed;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+  .content {
+    height: 80%;
+  }
+}
+
