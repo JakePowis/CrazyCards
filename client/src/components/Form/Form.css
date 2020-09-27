@@ -3,6 +3,7 @@
     flex-direction: column;
     /* height: 50vh; */
     align-items: center;
+
 }
 
 .form {
@@ -21,26 +22,33 @@
     margin: auto;
     margin-top: 8rem;
     font-size: 1.4rem;
-    
+    overflow: auto;
+
 }
 
 ul {
     list-style-type: none;
     padding: 0;
+
+    
 }
 
 .formContainer > div > li {
     padding: 0.4rem 0rem;
     width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+  
 }
 
 
 
 .nameForm, .workForm, .startForm {
     display: flex;
-    /* flex-wrap: wrap; */
-
+    flex-wrap: wrap;
     align-items: center;
+    
 }
 
 .submitContainer {
@@ -86,3 +94,46 @@ label {
 
     margin: 6rem 0rem;
 }
+
+
+@media only screen and (max-width: 1200px) {
+    .formContainer {
+        margin: auto;
+        padding-bottom: 4rem;;
+    }
+
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .formContainer > div > li {
+        flex-direction: column;
+        display: block;
+        width: 100%;
+ 
+      
+    }
+
+    label {
+        padding: 0.2rem 0;
+        width: 100%;;
+    }
+
+    input {
+        width: 85%;
+    }
+
+    .submitContainer {
+        margin: 0;
+        padding: 0;
+    }
+
+    .form button {
+
+        margin: 2rem 0rem;
+    }
+    
+  }

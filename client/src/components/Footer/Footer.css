@@ -1,6 +1,12 @@
 
 .footer {
-    margin: 0;
-    color:white;
-  }
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: inherit;
+    color: white;
+    text-align: center;
+    z-index: -10;
+}
 

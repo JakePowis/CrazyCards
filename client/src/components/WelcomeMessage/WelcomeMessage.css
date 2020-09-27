@@ -13,3 +13,17 @@
     max-height: 300px;
     width: auto;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+    .welcomeMessage {
+     text-align: center;
+    }
+
+    .cardIcon {
+        padding: 4rem;
+        max-height: 180px;
+        width: auto;
+    }
+  }
