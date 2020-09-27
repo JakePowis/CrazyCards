@@ -1,8 +1,10 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 import CardScreen from './CardScreen.js'
-import { render } from '@testing-library/react';
+import { render, cleanup } from '@testing-library/react';
 import { useParams, MemoryRouter } from "react-router-dom";
+
+afterEach(cleanup)
 
 test("working on mocking test for UseParams", ()=> {
 

@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+Array [
+  " ",
+  <header
+    className="header"
+  >
+    <a
+      href="/"
+      onClick={[Function]}
+    >
+      <div
+        className="logo"
+        onClick={[Function]}
+      >
+        <img
+          alt="crazy cards logo"
+          className="logoImage"
+          src="crazyCards.png"
+        />
+      </div>
+    </a>
+    <div
+      className="menu"
+      data-testid="menu"
+      onClick={[Function]}
+    >
+      <i
+        aria-hidden="true"
+        className="fa fa-bars"
+      >
+         
+      </i>
+    </div>
+  </header>,
+]
+`;

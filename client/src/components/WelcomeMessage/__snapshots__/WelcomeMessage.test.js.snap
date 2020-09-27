@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="welcomeMessage"
+>
+  <div
+    className="steps"
+  >
+    <div
+      className="active"
+    >
+      Introduction
+    </div>
+    <div
+      className=""
+    >
+      Enter Details
+    </div>
+    <div
+      className=""
+    >
+      Select Card
+    </div>
+  </div>
+  <div>
+    <h1>
+      Welcome to Crazy Cards 
+    </h1>
+  </div>
+  <div>
+    Enter some quick details and we'll match 
+    <b>
+      you
+    </b>
+     with your perfect card
+  </div>
+  <img
+    alt=""
+    className="cardIcon"
+    src="cardicon.png"
+  />
+  <button
+    onClick={[Function]}
+  >
+    Find My Perfect Card
+  </button>
+</div>
+`;

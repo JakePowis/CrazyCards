@@ -22,7 +22,7 @@ const [sidebarOpen, setSidebarOpen] = useState(false)
      
     <header className="header">
         <Link to='/'><div className="logo" onClick={()=>setToggleView("welcome")}><img src={logo} className="logoImage" alt="crazy cards logo"/></div></Link>
-        <div className="menu" onClick={openMenu}><i className="fa fa-bars" aria-hidden="true" > </i></div>
+        <div data-testid="menu" className="menu" onClick={openMenu}><i className="fa fa-bars" aria-hidden="true" > </i></div>
     </header>
 
     )
