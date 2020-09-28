@@ -1,66 +1,57 @@
 .cardDetailsContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    height: calc(100vh -100px);
-    padding: 0rem 10rem;
-    overflow: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  height: calc(100vh -100px);
+  padding: 0rem 10rem;
+  overflow: auto;
 }
 
 .cardTitle {
-    font-size: 3.5rem;
-    display: flex;
-    flex-direction: column;
-   justify-content: center;
-   align-items: center;
-    
+  font-size: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .cardInfo {
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    align-items: flex-start;
-    width: 100%;
-    margin: 2rem 0rem
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  width: 100%;
+  margin: 2rem 0rem;
 }
 
 .cardInfoFull {
-
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
-
 .cardImg {
-    height: 200px;
+  height: 200px;
 }
 
 .matchLink {
-    margin: 1rem 0;
+  margin: 1rem 0;
 }
 
 @media only screen and (max-width: 600px) {
+  .cardDetailsContainer {
+    width: 85%;
+    padding: 2rem;
+    margin: 1rem;
+    overflow: auto;
+    align-items: center;
+  }
 
-    .cardDetailsContainer {
-        width: 85%;
-        padding: 2rem;
-        margin: 1rem;
-        overflow: auto;
-        align-items: center;
-    }
+  .cardDetailsContainer > div {
+    width: 85%;
+    margin: 1rem;
+  }
 
-    .cardDetailsContainer > div {
-        width: 85%;
-        margin: 1rem;
-    }
-
-    .cardImg {
-        height: 120px;
-    }
-
-
-
-
-
+  .cardImg {
+    height: 120px;
+  }
 }

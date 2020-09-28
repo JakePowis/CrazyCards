@@ -1,25 +1,24 @@
-
 .steps {
-    display: flex;
-    justify-content: space-between;
-    width: 40rem;
-    margin: 1rem auto;
-  }
-  .steps > div {
-    border-top: 0.3rem #c0c0c0 solid;
-    color: #c0c0c0;
-    flex: 1 1;
-    padding-top: 1rem;
-    text-align: center;
-  }
-  .steps > div.active {
-    border-top: 0.3rem #008CBA solid;
-    color: #008CBA;
-  }
+  display: flex;
+  justify-content: space-between;
+  width: 40rem;
+  margin: 1rem auto;
+}
+.steps > div {
+  border-top: 0.3rem #c0c0c0 solid;
+  color: #c0c0c0;
+  flex: 1 1;
+  padding-top: 1rem;
+  text-align: center;
+}
+.steps > div.active {
+  border-top: 0.3rem #008cba solid;
+  color: #008cba;
+}
 
-  @media only screen and (max-width: 600px) {
-    .steps {
-      width: 30rem;
-      font-size: 1.2rem;
-    }
+@media only screen and (max-width: 600px) {
+  .steps {
+    width: 30rem;
+    font-size: 1.2rem;
   }
+}
