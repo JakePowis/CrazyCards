@@ -1,15 +1,12 @@
-import React from 'react';
-import ReactDom from 'react-dom';
-import CardScreen from './CardScreen.js'
-import { render, cleanup } from '@testing-library/react';
+import React from "react";
+import ReactDom from "react-dom";
+import CardScreen from "./CardScreen.js";
+import { render, cleanup } from "@testing-library/react";
 import { useParams, MemoryRouter } from "react-router-dom";
 
-afterEach(cleanup)
+afterEach(cleanup);
 
-test("working on mocking test for UseParams", ()=> {
-
-
-})
+test("working on mocking test for UseParams", () => {});
 
 // jest.mock('react-router-dom', () => ({
 //     ...jest.requireActual('react-router-dom'), // use actual for all non-hook parts
@@ -18,8 +15,6 @@ test("working on mocking test for UseParams", ()=> {
 //     })
 //   }));
 
-
-    
 //     test("Card Screen Renders Correctly", ()=> {
 
 //         jest.mock('react-router-dom', () => ({
@@ -30,5 +25,3 @@ test("working on mocking test for UseParams", ()=> {
 //         const div = document.createElement("div");
 //         ReactDom.render(<CardScreen/>, div)
 //     })
-    
-  

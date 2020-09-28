@@ -56,7 +56,7 @@ Array [
         href="/card/2"
         onClick={[Function]}
       >
-          
+         
         <li>
           <span
             className="indent"
